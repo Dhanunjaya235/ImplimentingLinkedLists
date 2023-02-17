@@ -1,9 +1,20 @@
-﻿namespace ImplimentingLinkedLists
+﻿using System.Collections;
+
+namespace ImplimentingLinkedLists
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            GenericConstraint<int> constraint = new GenericConstraint<int>();
+
+            HashSet<string> set = new HashSet<string>();
+
+            set.Add("a");
+            set.Add("b");
+            set.Add("c");
+            set.Add("a");
+
             GenericSingleLinkedList<int> lists = new GenericSingleLinkedList<int>();
 
             lists.AddNode(1);
