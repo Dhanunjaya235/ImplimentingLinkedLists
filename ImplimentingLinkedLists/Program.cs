@@ -6,7 +6,25 @@ namespace ImplimentingLinkedLists
     {
         static void Main(string[] args)
         {
-            GenericConstraint<int> constraint = new GenericConstraint<int>();
+
+            GenericConstraint<int> obj1;
+
+            GenericConstraint<string> obj2;
+
+
+
+            GenericConstraint<int>.id = 205;
+
+            GenericConstraint<string>.id = "Dhanunjay";
+
+
+            string str1 = GenericConstraint<int>.name;
+            string str2 = GenericConstraint<string>.name;
+
+            Console.WriteLine(GenericConstraint<int>.id);
+            Console.WriteLine(GenericConstraint<string>.id);
+            Console.WriteLine(str1);
+            Console.WriteLine(str2);
 
             HashSet<string> set = new HashSet<string>();
 

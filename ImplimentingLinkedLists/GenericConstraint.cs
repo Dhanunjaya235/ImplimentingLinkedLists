@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ImplimentingLinkedLists
 {
-    internal class GenericConstraint<T> where T:struct
+    internal class GenericConstraint<T>
     {
         public T Value { get; set; }
 
+        public static string name = "Dhanunjay";
+
+
+        public static T id;
     }
 }
