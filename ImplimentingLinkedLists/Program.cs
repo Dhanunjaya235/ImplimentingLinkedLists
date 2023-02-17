@@ -4,24 +4,24 @@
     {
         static void Main(string[] args)
         {
-            GenericSingleLinkedList<int> list = new GenericSingleLinkedList<int>();
+            GenericSingleLinkedList<int> lists = new GenericSingleLinkedList<int>();
 
-            list.AddNode(1);
-            list.AddNode(2);
-            list.AddNode(3);
-            list.AddNode(4);
-            list.AddNode(5);
-            list.AddFirst(0);
-            list.AddAfter(111, 1);
+            lists.AddNode(1);
+            lists.AddNode(2);
+            lists.AddNode(3);
+            lists.AddNode(4);
+            lists.AddNode(5);
+            lists.AddFirst(0);
+            lists.AddAfter(111, 1);
 
-            Console.WriteLine(list.Contains(3));
+            Console.WriteLine(lists.Contains(3));
 
-            list.DisplayData();
+            lists.DisplayData();
 
-            list.RemoveLast();
-            list.RemoveNode(4);
-            list.RemoveFirst();
-            list.DisplayData();
+            lists.RemoveLast();
+            lists.RemoveNode(4);
+            lists.RemoveFirst();
+            lists.DisplayData();
 
             SingleLinkedListOfObjects sll = new SingleLinkedListOfObjects();
 
