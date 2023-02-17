@@ -9,6 +9,7 @@
             head = null;
         }
 
+
         public void AddNode(int data)
         {
             Node newNode = new Node(data);
